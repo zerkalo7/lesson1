@@ -1,13 +1,13 @@
 ## OTUS-Linux-Lesson 1
-# Задание 1 - Обновляем ядро из репозитория, загружаем Vagrantfile на Github  
-Собственно все по методичке, поэтому смысла расписывать здесь последовательности действий особенно нет.  
-Для запуска тестового запуска устанавливаем Vagrant и Virtualbox и вводим команды.   
+# Задание 1 - Обновляем ядро из репозитория, загружаем Vagrantfile на Github    
+Собственно, все по методичке.    
+Для тестового запуска устанавливаем Vagrant и Virtualbox и вводим команды.  
 ```
 vagrant init -m zerkalo7/centos-7-5
 vagrant up
 ```
 
-А вот так создаем репозиторий на Github и загружаем туда Vagrantfile и readme.md из терминала  
+Загружаем туда Vagrantfile и readme.md на Github  
 ```
 git init .
 git add Vagrantfile
