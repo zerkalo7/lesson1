@@ -1,12 +1,13 @@
 ## OTUS-Linux-Lesson 1
-# 1. Vagrantfile  
-After installing Vagrant and Virtualbox virtual machine can be started with:
+# Задание 1 - Обновляем ядро из репозитория, загружаем Vagrantfile на Github  
+Собственно все по методичке, поэтому смысла расписывать здесь последовательности действий особенно нет.  
+Для запуска тестового запуска устанавливаем Vagrant и Virtualbox и вводим команды.   
 ```
 vagrant init -m zerkalo7/centos-7-5
 vagrant up
 ```
 
-Uploading Vagrantfile and readme.md to Git:
+А вот так создаем репозиторий на Github и загружаем туда Vagrantfile и readme.md из терминала  
 ```
 git init .
 git add Vagrantfile
