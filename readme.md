@@ -7,7 +7,7 @@ vagrant init -m zerkalo7/centos-7-5
 vagrant up
 ```
 
-Загружаем туда Vagrantfile и readme.md на Github  
+Загружаем Vagrantfile и readme.md на Github  
 ```
 git init .
 git add Vagrantfile
